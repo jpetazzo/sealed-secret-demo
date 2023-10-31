@@ -1,0 +1,15 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: demo
+  namespace: default
+spec:
+  encryptedData:
+    pin-code: AgCTsGBLot3tvDrxYTu+fCFS9BUgeRc/3CuEwg9BnwvPoBOtYM8/vAuhV2Zmm4vveoY9H44SQon3Y1auSMfHO4GnfnJgy2w2sI5wQi9TImvbvRKn4Ql430mCuF8FDRm0rSQM/lc2sMauD1/rKpYgYwMxAOLSBgsMrHpx3GXTu/2K9xaZWrqf76UkSAPXPAoEvMQt4nVm36EHHsciZIYwpKhUOq4lpG5HDDj6xeSpMRp0k2DClUTc9GfWetLdV5ocOk88zqYNF/C/m1XpvGmv2P2KpMUTLP3LMlH8JTaxKR+hdyarbIucBqLBLpY7W7kfsO1UMAa/SnVwsVzX/+MfXaTOFp9JVD0XHAKrC/AiiPsVHAgApIj9OfzdGbqAkIhj2ZATaY1/UF65Xiv36dsQeHxlP5REDVT1J+B6PT0XHLYJhG3qXNgt/2kpaf9mjW2pdyg0GCH8HMxsdsqeqNHBolT91J80HfITDLzAISFy5cKb16B6nEgTn5Lc5g/t9dlSc+byOk8n/TIe/DELIuBDWiBk5Iw+t4iJ+iqVwlr4z65LICmMlH2lBK/Kghx7fMgzavObclIKinpJq9+UJxLQrB3oTYiulmjcJsqYSgQNejsisdqcNhRBajg95omQjD8PZAjCN4EgNBE9v/BCdS0URnc269x4jqPPqpeW3sGwqqRZ/c7i2F/NmvV71b0JuvDGKvs70sfP
+  template:
+    metadata:
+      creationTimestamp: null
+      name: demo
+      namespace: default
+
